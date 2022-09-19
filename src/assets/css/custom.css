@@ -1,0 +1,143 @@
+/* header bölümü */
+
+.header-container{
+    display: flex;
+    flex-direction: row;
+    padding-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+} 
+
+.header-container-box{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    background: #2a2d43;
+    border-radius: 5px;
+}
+.header-container-icon{
+margin-left: auto;
+display: flex;
+align-items: center;
+margin-right: 20px;
+}
+
+.header-icon{
+    height: 4rem;
+    width: 4rem;
+}
+
+/* card tasarımı için yapılan çalışmalar */
+
+.card{
+    margin: 4rem auto;
+    max-width: 42rem;
+    background: #2a2d43;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 10px;
+    border: 1px solid #10293d;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.card-container {
+    margin: 2rem auto;
+    padding: 2rem;
+    max-width: 50rem;
+}
+
+.card-container-result {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: .4rem;
+}
+
+/* form için yapılan çalışmalar */
+
+.form-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: .4rem ;
+}
+.form-content{
+    display: flex;
+    flex-direction: column;
+    padding: .9rem;
+}
+.form-container-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.form-button{
+    cursor: pointer;
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+    width: 8rem;
+    height: 2.2rem;
+    font-weight: bold;
+    font-size: 13px;
+}
+.form-button:hover,
+.form-button:active {
+    background-color: rgb(218, 221, 221);
+}
+
+.form-content-result{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: .9rem;
+}
+
+.form-content-result-title{
+    color: green;
+    font-size: medium;
+}
+
+/* ödeme tablosu için yapılan çalışmalar */
+
+table, th, td {
+    border-bottom: 1px solid;
+    height: 50px;
+    text-align: center;
+    padding: 15px;
+    
+  }
+  th {
+    color: rgba(66, 242, 151, 0.596);
+    font-weight: bold;
+    justify-content: center;
+}
+
+/* dialog için yapılan çalışmalar */
+
+  .dialog-header {
+      font-size: 18px;
+    border-bottom: 0 none;
+    color: white;
+    padding: .8rem;
+    font-weight: bold;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+  }
+
+  .p-dialog-header-icons{
+      margin: 15px 10px;
+  }
+
+  .p-dialog-header-close{
+      color: white;
+      font-size: 16px;
+  }
